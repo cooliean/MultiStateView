@@ -311,6 +311,7 @@ public class MultiStateView extends FrameLayout {
                 break;
         }
 
+        setView();
         if (switchToState) setViewState(state);
     }
 
